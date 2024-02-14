@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="bg-container" id="bgContainer">
+      <h1 class="heading">Color Picker</h1>
+      <div class="btns-container">
+        <button class="btn btn1" onclick="btn1()">#e0e0e0</button>
+        <button class="btn btn2" onclick="btn2()">#6fcf97</button>
+        <button class="btn btn3" onclick="btn3()">#56ccf2</button>
+        <button class="btn btn4" onclick="btn4()">#bb6bd9</button>
+      </div>
+      <p class="bg-color-text">Background Color: <span class="bg-color-name" id="bgColorText">#ffffff</span>
+    </p>
+      <p class="description">
+        Try clicking on one of the colors above to change the background color
+        of this page!
+      </p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
